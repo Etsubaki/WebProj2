@@ -11,7 +11,7 @@ public class LoginDAO {
 	public String username;
 	public String password;
 
-	public boolean select(String username, String pssword){
+	public boolean select(String username, String password){
 		boolean ret=false;
 		DBConnector db = new DBConnector();
 		Connection con = db.getConnection();
