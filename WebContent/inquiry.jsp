@@ -7,7 +7,7 @@
 		<title>お問い合わせフォーム</title>
 	</head>
 	<body>
-		<s:form method="post" actuin="InquiryComleteAction">
+		<s:form method="post" action="InquiryCompleteAction">
 			名前:<input type="text" name="name" />
 			<br>お問い合わせの種類<br>
 			<select name="qtype">
@@ -16,6 +16,7 @@
 				<option value="support">アフターサポートについて</option>
 			</select>
 			<br>お問い合わせ内容:<s:textarea name="body"/><br>
+			<s:submit value="登録"/>
 		</s:form>
 	</body>
 </html>
